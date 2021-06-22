@@ -1,0 +1,29 @@
+h1 {
+  background: #15dd15;
+  text-align: center;
+  color:#0303e7;
+}
+
+div {
+  padding: 15px;
+}
+h2, h3 {
+  background: yellowgreen;
+}
+p {
+  background: #ffff00;
+  text-align: justify;
+  color:navy;
+}
+
+ul {
+  border: 10px solid skyblue;
+}
+
+li {
+  background: #4a4ae6;
+}
+
+img {
+  border: 5px solid red;
+}

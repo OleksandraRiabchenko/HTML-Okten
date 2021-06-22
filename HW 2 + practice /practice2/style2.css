@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+}
+
+.wrap {
+margin: 0;
+display: flex;
+flex-direction: column;
+}
+
+.twoBoxes, .threeBoxes {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+}
+
+.box {
+  width: 100%;
+  border: 5px solid green;
+  background: palegreen;
+}
+
+.rectangle {
+  width: 100%;
+  height: 250px;
+  background: palegreen;
+}
+

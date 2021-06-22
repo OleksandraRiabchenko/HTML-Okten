@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+}
+
+.wrap {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  background: cyan;
+}
+
+.bigContainer {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+}
+
+.twoBoxes {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.first {
+  width: 40%;
+}
+
+.box1 {
+  height: 150px;
+  background: silver;
+}
+
+.box2 {
+  height: 100%;
+  background:yellowgreen;
+}
+
+.box3 {
+  height: 300px;
+  background:orange;
+}
+
+.box4 {
+  height: 100%;
+  background:rgb(71, 69, 69);
+}
+
+.otherTwoBoxes {
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+}
+
+.box5 {
+  width: 100%;
+  background:green;
+}
+.box6 {
+  width: 35%;
+  background:pink;
+}
+
+.box7 {
+  width: 100%;
+  height: 80px;
+  background: #ff8800;
+}

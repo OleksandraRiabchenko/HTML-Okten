@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+}
+
+.wrap  {
+  margin: 0;
+  width: 100%;
+  background: silver;
+  color:darkslateblue;
+}
+
+.header, .nav {
+  width: 100%;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+  padding: 15px;
+}
+
+.nav h2{
+  margin: 0;
+  padding: 10px;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size:x-large;
+}
+
+.main {
+  box-sizing: border-box;
+  width: 60%;
+  padding: 0 15px;
+  text-align: justify;
+}
+
+.aside img {
+  width:  500px ;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: large;
+}
+
+.footer p {
+  padding: 20px 0;
+}
+.footer img {
+  width: 300px;
+  height: 100px;
+}
