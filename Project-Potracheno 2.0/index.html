@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrapper header-grid">
+        <div class="header-logo">
+          <a href="#"><img src="image/header-logo.png" alt="logo-image" /></a>
+        </div>
+        <div class="header-right">
+          <div class="header-nav">
+            <div class="nav-menu-item"><a href="#">Главная</a></div>
+            <div class="nav-menu-item"><a href="#">Меню</a></div>
+            <div class="nav-menu-item"><a href="#">Еще...</a>
+              <div class="drop-down-menu">
+                <div class="drop-down-item"><a href="#">Фотоотчеты</a></div>
+                <div class="drop-down-item"><a href="#">Правила заведения</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="header-buttons">
+            <div class="header-button-call">
+              <i class="fas fa-phone-alt"></i>
+            </div>
+            <button class="header-btn">Забронировать</button>
+            <button class="mobile-btn"><span></span></button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="news">
+      <div class="wrapper">
+        <h2 class="news-title">Новости и акции</h2>
+        <div class="news-slider">
+          <div class="arrow-left"><i class="fas fa-chevron-left"></i></div>
+          <div class="news-slider-item"><img src="image/Slider1.png" alt="slider-photo"></div>
+          <div class="news-slider-item"><img src="image/Slider2.png" alt="slider-photo"></div>
+          <div class="news-slider-item"><img src="image/Slider3.png" alt="slider-photo"></div>
+          <div class="news-slider-item"><img src="image/Slider2.png" alt="slider-photo"></div>
+          <div class="news-slider-item"><img  class="last-news-img"
+            src="image/Slider1.png" alt="slider-photo"></div>
+          <div class="arrow-right"><i class="fas fa-chevron-right"></i></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-bar-menu">
+      <div class="wrapper main-bar-menu-grid">
+        <div class="main-bar-menu-title">
+          <h2><a href="#">Основное Меню</a></h2>
+          <h2><a href="#">Барная карта</a></h2>
+        </div>
+        <div class="categories">
+          <div class="list-categories">
+            <ul>
+              <div class="line-list">
+              <li><a href="#">Холодные закуски</a></li>
+              <li><a href="#">Салаты</a></li>
+              <li><a href="#">Горячие закуски</a></li>
+              <li><a href="#">Супы</a></li>
+              <li><a href="#">Паста</a></li>
+              <li><a href="#">Основные блюда</a></li>
+            </div>
+              <div class="line-list">
+                <li><a href="#">Пицца</a></li>
+                <li><a href="#">Блюда на гриле</a></li>
+                <li><a href="#">Морепродукты</a></li>
+                <li><a href="#">Гарниры</a></li>
+                <li><a href="#">Соусы</a></li>
+                <li><a href="#">Десерты</a></li>
+              </div>
+            </ul>
+          </div>
+          <div class="categories-search">
+            <input type="text" placeholder = "Поиск..." required>
+            <button class="search-btn"><i class="fas fa-search"></i></button>
+          </div>
+        </div>
+        <button class="menu-filter">Фильтры <i class="fas fa-sliders-h"></i></button>
+
+        <div class="categories-seach-mobile">
+          <div class="search-mobile">
+            <input type="text" placeholder = "Поиск..." required>
+            <button class="search-btn-mobile"><i class="fas fa-search"></i></button>
+          </div>
+        <button class="menu-filter-mobile">Фильтры <i class="fas fa-sliders-h"></i></button>
+        </div>
+
+        <div class="bar-menu">
+          <div class="bar-menu-item item-1">
+            <h3>Kaif</h3>
+            <p class="cocktail-ingredients">Martini Bianco, ликер Blue Curacao, сок лимона, сироп, белок</p>
+            <div class="cocktail-info">
+              <p class="price-cocktail">322₽<span>/100г.</span></p>
+              <button class="cocktail-info-btn">подробнее</button>
+            </div>
+            <div class="strange-red-line"></div>
+          </div>
+          <div class="bar-menu-item item-2">
+            <h3>Кловер клаб</h3>
+            <p class="cocktail-ingredients">Джин Barrister, сироп, сок лимона, белок</p>
+            <div class="cocktail-info">
+              <p class="price-cocktail">349₽<span>/100г.</span></p>
+              <button class="cocktail-info-btn">подробнее</button>
+            </div>
+            <div class="strange-red-line"></div>
+          </div>
+          <div class="bar-menu-item item-3">
+            <h3>Старый немец</h3>
+            <p class="cocktail-ingredients">Olmeca Chocolate, Martini Bitter, Cola, сироп</p>
+            <div class="cocktail-info">
+              <p class="price-cocktail">359₽<span>/100г.</span></p>
+              <button class="cocktail-info-btn">подробнее</button>
+            </div>
+            <div class="strange-red-line"></div>
+          </div>
+          <div class="bar-menu-item item-4">
+            <h3>Kaif</h3>
+            <p class="cocktail-ingredients">Martini Bianco, ликер Blue Curacao, сок лимона, сироп, белок</p>
+            <div class="cocktail-info">
+              <p class="price-cocktail">149₽<span>/100г.</span></p>
+              <button class="cocktail-info-btn">подробнее</button>
+            </div>
+            <div class="strange-red-line"></div>
+          </div>
+          <div class="bar-menu-item item-5">
+            <h3>Кловер клаб</h3>
+            <p class="cocktail-ingredients">Джин Barrister, сироп, сок лимона, белок</p>
+            <div class="cocktail-info">
+              <p class="price-cocktail">349₽<span>/100г.</span></p>
+              <button class="cocktail-info-btn">подробнее</button>
+            </div>
+            <div class="strange-red-line"></div>
+          </div>
+          <div class="bar-menu-item item-6">
+            <h3>Старый немец</h3>
+            <p class="cocktail-ingredients">Olmeca Chocolate, Martini Bitter, Cola, сироп</p>
+            <div class="cocktail-info">
+              <p class="price-cocktail">359₽<span>/100г.</span></p>
+              <button class="cocktail-info-btn">подробнее</button>
+            </div>
+            <div class="strange-red-line"></div>
+          </div>
+          <div class="bar-menu-item item-7">
+              <img src="image/cocktail1.png" alt="cocktail-photo">
+              <h3>Kaif</h3>
+              <p class="cocktail-ingredients">Martini Bianco, ликер Blue Curacao, сок лимона, сироп, белок</p>
+              <div class="cocktail-info">
+                <p class="price-cocktail">149₽<span>/100г.</span></p>
+                <button class="cocktail-info-btn">подробнее</button>
+              </div>
+              <div class="strange-red-line"></div>
+          </div>
+          <div class="bar-menu-item item-8">
+              <img src="image/cocktail2.png" alt="cocktail-photo">
+              <h3>Старый немец</h3>
+              <p class="cocktail-ingredients">Olmeca Chocolate, Martini Bitter, Cola, сироп</p>
+              <div class="cocktail-info">
+                <p class="price-cocktail">359₽<span>/100г.</span></p>
+                <button class="cocktail-info-btn">подробнее</button>
+              </div>
+              <div class="strange-red-line"></div>
+            </div>
+          <div class="bar-menu-item item-9">
+              <img src="image/cocktail3.png" alt="cocktail-photo">
+              <h3>Кловер клаб</h3>
+              <p class="cocktail-ingredients">Джин Barrister, сироп, сок лимона, белок</p>
+              <div class="cocktail-info">
+                <p class="price-cocktail">349₽<span>/100г.</span></p>
+                <button class="cocktail-info-btn">подробнее</button>
+              </div>
+              <div class="strange-red-line"></div>
+          </div>
+        </div>
+          <div class="more-button">
+            <button class="show-more-btn">Показать еще</button>
+          </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="wrapper footer-grid">
+        <div class="footer-nav">
+          <img src="image/header-logo.png" alt="logo-photo">
+          <div class="footer-nav-items">
+              <div class="footer-menu-item"><a href="#">Главная</a></div>
+              <div class="footer-menu-item"><a href="#">Меню</a></div>
+              <div class="footer-menu-item"><a href="#">Акции</a></div>
+              <div class="footer-menu-item"><a href="#">Интерьер</a></div>
+              <div class="footer-menu-item"><a href="#">Команда</a></div>
+              <div class="footer-menu-item"><a href="#">Контакты</a></div>
+          </div>
+        </div>
+        <div class="contacts">
+          <div class="phone-number"><a href="tel:+88009999999">8 (800) 999-99-99</a></div>
+          <p class="reservation">Бронь столов с 09:00 до 19:00</p>
+          <div class="footer-network-items">
+            <div class="network-item"><i class="fab fa-telegram-plane"></i></div>
+            <div class="network-item"><i class="fab fa-viber"></i></div>
+            <div class="network-item"><i class="fab fa-instagram"></i></div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="footer-information">
+            <div class="footer-bottom-info"><a href="#">Политика конфидециальности</a></div>
+            <div class="footer-bottom-info"><a href="#">Договор оферты</a></div>
+          </div>
+          <p class="footer-info">Информация на сайте не является публичной офертой</p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/01be251210.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      document.querySelector('.mobile-btn').onclick = function () {
+        document.querySelector('.header-nav').classList.toggle('active');
+        document.querySelector('.header-buttons').classList.toggle('active');
+      }
+    </script>
+  </body>
+</html>
+
+

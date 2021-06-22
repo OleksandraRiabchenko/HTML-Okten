@@ -1,0 +1,315 @@
+@media screen and (max-width: 480px) {
+  .wrapper {
+    padding: 10px;
+  }
+
+  .header-grid {
+    height: 65px;
+  }
+
+  .header-logo img{
+    width: 174px;
+  }
+
+  .header-btn,
+  .arrow-left, .arrow-right {
+    display: none;
+  } 
+
+  .header-nav {
+    /* display: none; */
+    position: absolute;
+    width: 100vw;
+    background: #1B1B1B;
+    flex-direction: column;
+    left: -100%;
+    height: 90vh;
+    top: 65px;
+    transition: left .3s;
+  }
+
+  .header-nav.active {
+    left: 0;
+  }
+
+  .header-buttons {
+    column-gap: 23px;
+  }
+
+  .header-button-call {
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+  }
+
+  .mobile-btn {
+    display: flex;
+  }
+
+  .news {
+    padding: 10px;
+  }
+
+  .news-slider {
+    justify-content: flex-start;
+    column-gap: 8px;
+  }
+
+  .news-slider-item img {
+    width: 83px;
+  }
+
+  .news-slider-item:last-child, .last-news-img {
+    display: none;
+  }
+
+  .news-title {
+  font-size: 18px;
+  margin-bottom: 14px;
+  }
+  
+  .list-categories {
+    display: none;
+  }
+
+  .main-bar-menu-title {
+    font-size: 16px;
+    margin-bottom: 17px;
+  }
+
+  .categories-search, .menu-filter {
+    display: none;
+  }
+
+  .categories-seach-mobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .search-mobile {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    width: 205px;
+    height: 29px;
+    border: 0.6px solid #727272;
+    border-right: none;
+    border-radius: 3px;
+
+  }
+
+  .search-mobile input{
+    width: 176px;
+    height: 30px;
+    background: #222220;
+    color: #B7B7B7;
+    font-size: 12px;
+    box-sizing: border-box;
+  }
+
+  .menu-filter-mobile {
+    width: 110px;
+    height: 30px;
+    background: #CB3B48;
+    box-shadow: 0px 0px 9px #CB3B48;
+    border-radius: 5px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #FFFFFF;
+  }
+
+  .search-btn-mobile {
+    width: 29px;
+    height: 29px;
+    background: #CB3B48;
+    border: 0.6px solid #CB3B48;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 9px #CB3B48;
+    border-radius: 0px 3px 3px 0px;
+    font-size: 14px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: color .5s;
+  }
+  .bar-menu {
+    position: relative;
+    row-gap: 15px;
+    column-gap: 10px;
+  }
+  
+
+  .bar-menu-item {
+    position: relative;
+    width: 48%;
+    height: 142px;
+  }
+
+  .cocktail-info {
+    flex-direction: column;
+    padding: 7px 20px 15px 10px;
+  }
+
+  .bar-menu-item h3 {
+    font-size: 13px;
+    padding: 10px 10px 0px 10px;
+  }
+
+  .cocktail-ingredients {
+    font-size: 8px;
+    line-height: 9px;
+    padding: 5px 10px 0 10px;
+  }
+
+  .price-cocktail {
+    font-size: 21px;
+    line-height: 24px;
+  }
+  
+  .price-cocktail span {
+    font-size: 10px;
+    font-weight: normal;
+  }
+
+  .cocktail-info-btn {
+    width: 133px;
+    height: 23px;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .strange-red-line {
+    position: absolute;
+    bottom: 3px;
+    width: 80px;
+    height: 3px;
+    transform: translateX(50%);
+    background: #CB3B48;
+    border-radius: 9px 9px 0px 0px;
+  }
+
+  .item-7, .item-8, .item-9 {
+    width: 48%;
+    height: 300px;
+    border-radius: 20px;
+  }
+  
+  .item-7 .strange-red-line, .item-8 .strange-red-line, .item-9 .strange-red-line {
+    bottom: 9px;
+  }
+  
+  .item-7 img, .item-8 img, .item-9 img {
+    height: 160px;
+  }
+
+  .item-1 {
+    order: -4;
+  }
+  .item-8 {
+    order: -3;
+  } 
+  .item-4 {
+    position: absolute;
+    top: 155px;
+    order: -2;
+  }
+  .item-7 {
+    order: -1;
+  }
+
+  .item-8 {
+    order: 1;
+  }
+
+  .item-5  {
+    order: 4;
+  }
+
+  .item-3 {
+    order: 3;
+  }
+  
+  .item-6, .item-2  {
+    display: none;
+  }
+
+  .more-button {
+    margin-top: 30px;
+    margin-bottom: 25px;
+  }
+  .show-more-btn {
+    width: 105px;
+    height: 26px;
+    box-shadow: 0px 0px 8px #CB3B48;
+    border-radius: 55px;
+    font-size: 9px;
+    line-height: 10px;
+  }
+
+  .footer-nav {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .footer-nav img {
+    width: 145px;
+    height: 30px;
+  }
+
+  .footer-menu-item a {
+    font-size: 9.28205px;
+    line-height: 11px;
+  }
+
+
+.phone-number a {
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.reservation {
+  font-size: 6px;
+  line-height: 7px;
+  color: #8F8F8F;
+}
+
+.footer-network-items {
+  column-gap: 20px;
+}
+
+.network-item i {
+  font-size: 14px;
+}
+
+.footer-bottom {
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.footer-information {
+  width: 250px;
+  display: flex;
+  column-gap: 10px;
+}
+
+.footer-bottom-info a {
+  font-size: 9px;
+  line-height: 11px;
+}
+
+.footer-info {
+  font-size: 9px;
+  line-height: 10px;
+}
+
+
+
+
+}
