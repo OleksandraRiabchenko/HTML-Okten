@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+}
+
+.wrap {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.blue {
+  background: skyblue;
+  border: 2px solid snow;
+}
+
+.head-box {
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10%;
+}
+
+.menu {
+  width: 90%;
+}
+
+.rectangle1 {
+  box-sizing: border-box;
+  width: 100%;
+  height: 90px;
+}
+
+.rectangle2 {
+  box-sizing: border-box;
+  width: 100%;
+  height: 140px;
+  background: #80a4e6;
+  border: 2px solid snow;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.close {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  width: 20px;
+  height: 20px;
+  background: silver;
+  color: black;
+  border: 1px solid black;
+}
+
+.center-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.small-boxes {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.couple-boxes {
+  display: flex;
+  flex-direction: row;
+}
+
+.small-box {
+  width: 100%;
+  height: 140px;
+}
+
+.largeBox {
+  width: 100%;
+  height: 283px;
+}
+
+.bottom-box {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.last {
+  width: 100%;
+}
